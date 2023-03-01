@@ -1,24 +1,35 @@
 import React, { useEffect, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import Topbar from '../components/Topbar';
+import Navbar from '../components/Navbar';
 
 const Menu = () => {
+
     
-    const [menu, setMenu] = useState({});
+    const [menu, setMenu] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3001/catalog/list', {
-            method: 'GET',
-            headers: {
-                "Accept": "application/json",
-                "Content-Type": "application/json"
-            }
-        })
-        .then(res => console.log(res));
+        const menuItems = [
+            
+            {
+            name: 'Mighty Philly',
+            price: 9.99,
+            description: 'Philly cheese steak',
+            img_src: ''
+        }
+    ]
+
+        setMenu(menuItems)
     }, []);
 
     
     return (
-    <div>Menu</div>
+    <div>
+        <Topbar />
+        <Navbar curPage={1}/>
+        {menu.map((item, index) => 
+            <div key={index}>{item.name} {item.price}</div>
+        )}
+    </div>
   )
 }
 
