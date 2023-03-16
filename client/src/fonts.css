@@ -1,0 +1,8 @@
+@font-face {
+    font-family: Inika;
+    src: url(./assets/Inika-Regular.ttf);
+}
+
+.inika {
+    font-family: Inika;
+}

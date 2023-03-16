@@ -51,7 +51,6 @@ const NavBar = ({ curPage }) => {
                     deselectedStyles}
                 >{item.text}</Link>
         })}
-        
     </div>
   );
 }
