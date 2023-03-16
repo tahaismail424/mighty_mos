@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.83a06bc5.css",
-    "main.js": "/react-gh-pages/static/js/main.2ad3e453.js",
-    "static/js/787.c4e7f8f9.chunk.js": "/react-gh-pages/static/js/787.c4e7f8f9.chunk.js",
-    "static/media/food_background.jpeg": "/react-gh-pages/static/media/food_background.fce5ccbfd3c914d945a0.jpeg",
-    "static/media/Inika-Regular.ttf": "/react-gh-pages/static/media/Inika-Regular.f6070be6afb8b3a246e6.ttf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.83a06bc5.css.map": "/react-gh-pages/static/css/main.83a06bc5.css.map",
-    "main.2ad3e453.js.map": "/react-gh-pages/static/js/main.2ad3e453.js.map",
-    "787.c4e7f8f9.chunk.js.map": "/react-gh-pages/static/js/787.c4e7f8f9.chunk.js.map"
+    "main.css": "/mighty-mos/static/css/main.4f5436e8.css",
+    "main.js": "/mighty-mos/static/js/main.be20c298.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/mighty-mos/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/food_background.jpeg": "/mighty-mos/static/media/food_background.fce5ccbfd3c914d945a0.jpeg",
+    "static/media/Inika-Regular.ttf": "/mighty-mos/static/media/Inika-Regular.f6070be6afb8b3a246e6.ttf",
+    "index.html": "/mighty-mos/index.html",
+    "main.4f5436e8.css.map": "/mighty-mos/static/css/main.4f5436e8.css.map",
+    "main.be20c298.js.map": "/mighty-mos/static/js/main.be20c298.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/mighty-mos/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83a06bc5.css",
-    "static/js/main.2ad3e453.js"
+    "static/css/main.4f5436e8.css",
+    "static/js/main.be20c298.js"
   ]
 }
